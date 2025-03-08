@@ -3,7 +3,7 @@ public class Insertion {
     public static void main(String[] args) throws ClassNotFoundException {
         String url = "jdbc:mysql://localhost:3306/mydatabases";
         String username = "root";
-        String password = "SP16@mysql";
+        String password = "----"
         String query1 = "insert into employees(id,name,job_title,salary) values (3,'pegasus','FS devloper',87000)";
 
         try {
