@@ -3,7 +3,7 @@ public class Main {
     public static void main(String[] args) throws ClassNotFoundException {
         String url = "jdbc:mysql://localhost:3306/mydatabases";
         String username = "root";
-        String password = "SP16@mysql";
+        String password = "----"
         String query = "select * from employees";
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
